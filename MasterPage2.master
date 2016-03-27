@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage2.master.cs" Inherits="MasterPage2" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+
+    <title>Seedling</title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+
+    <link href="Content/Master.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="homepage">
+
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <div id="header-wrapper">
+            <div id="header">
+
+
+                <!-- Logo -->
+                <h1><a href="home.aspx" style="vertical-align: middle">
+                    <img src="LogoWide.png" style="width: 12em" /></a></h1>
+                <nav class="nav" role="navigation">
+                    <!-- Nav -->
+                    <div class="nav" id="nav">
+                        <ul style="padding: 1em">
+                            <li class="current"><a href="home.aspx">Home</a></li>
+                            <li><a href="discover.aspx">About Us</a></li>
+                            <li><a href="teams.aspx">Our Team</a></li>
+                            <li><a href="saved.aspx">Careers</a></li>
+                            <li><a href="new.aspx">Contact Us</a></li>   
+                            <li class="nav navbar-right"><a href="login.aspx">Login</a></li>                                                    
+                        </ul>
+                    </div>
+                </nav>
+                <div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
