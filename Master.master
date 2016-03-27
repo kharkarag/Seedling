@@ -32,12 +32,15 @@
                 <nav class="nav" role="navigation">
                     <!-- Nav -->
                     <div class="nav" id="nav">
-                        <ul style="padding: 1em">
+                        <ul class="navbar-block">
                             <li class="current"><a href="home.aspx">Home</a></li>
                             <li><a href="discover.aspx">Discover</a></li>
                             <li><a href="teams.aspx">My Teams</a></li>
                             <li><a href="saved.aspx">Saved Teams</a></li>
                             <li><a href="new.aspx">New Team</a></li>                             
+                            
+                        </ul>
+                        <ul style="padding: 1em;  float: right">
                             <li class ="nav navbar-right">Hello Bill! &nbsp; &nbsp;<a href="loggedOut.aspx">Log Out</a></li>
                         </ul>
                     </div>

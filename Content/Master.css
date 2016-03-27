@@ -147,3 +147,11 @@ search
 {
     padding-top:2em;
 }
+
+.navbar-block {
+    position: absolute;
+    padding: 1em;
+    left: 50%;
+    margin-right: -50%;
+    transform: translateX(-50%)
+}
